@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #0f2c38;
+    color: wheat;
+    font-weight: bold;
+}
+
+body {
+    align-items: center;
+    justify-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container-head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.container-secure {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+#controls #prev:hover,
+#controls #next:hover {
+    opacity: 0.6;
+}
+
+#progress .times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    cursor: pointer;
+    transition: .3s;
+}
+
+li.playing {
+    background-color: #0f2c38;
+    color: white;
+}
+
+#play {
+    width: 50px;
+    font-size: 24px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+}
+
+
+.img-div {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+@media screen and (max-width:768px) {
+    .container-head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .img-div{
+        margin-bottom: 20px;
+    }
+    
+}
